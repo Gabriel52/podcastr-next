@@ -61,22 +61,23 @@
         width: 4rem;
         text-align: center;   
     }
-}
-
-.slider {
-    flex: 1;
-    
-    .emptySlider {
-        width: 100%;
-        height: 4px;
-        background-color: var(--purple-300);
-        border-radius: 2px;
+    .slider {
+        flex: 1;
+        
+        .emptySlider {
+            width: 100%;
+            height: 4px;
+            background-color: var(--purple-300);
+            border-radius: 2px;
+        }
     }
 }
+
 
 .buttons {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 2.5rem;
     gap: 1.5rem;
 

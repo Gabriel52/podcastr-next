@@ -1,0 +1,28 @@
+SPA (SINGLE PAGE APLICATION)
+    * Para requisições SPA é utilizado UseEffect(), que ela fica escutando
+    a página se alguma coisa for alterada eu quero que algo aconteça
+    
+    * Roda no javascript do brownsser
+
+    * Não é a melhor estrategia para a indexação do site CEO
+
+
+SSR (SERVER SIDE GENERATION)
+    * Só colocar uma função com o nome getServerSideProps()
+    * Executa a função antes de carregar a página
+    * A primeira camada a ser executada é a do next (servidor NODE por trás)
+    * Os dados são carregados no lado do servidor
+    * Executado toda vez/ em tempo real
+
+SSG (STATIC SIDE GENERATION)
+    * É utilizado quando á pagina não sofre muitas alterações em tempo real
+    * Para não precisar ficar indo toda vez na Api buscar dados
+    * nOME DA FUNÇÃO getStaticProps()
+    * revalidate diz de quanto em quanto tempo deve ser gerado uma nova página
+
+
+Key: A propriedade key serve para referenciar o elemento, sem ele o react teria que recriar 
+do total zero uma lista onde um elemento foi excluido ou lterado
+
+
+A tag Image: Serve para optimizar a renderização da imagem, e só setar a largura e altura
